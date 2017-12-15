@@ -36,3 +36,10 @@ PRODUCT_PACKAGES += \
     SystemDarkTheme \
     SystemUIBlackTheme \
     SystemUIDarkTheme
+
+# DU Utils Library
+PRODUCT_BOOT_JARS += \
+   org.dirtyunicorns.utils
+
+PRODUCT_PACKAGES += \
+   org.dirtyunicorns.utils
